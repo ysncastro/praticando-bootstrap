@@ -1,16 +1,14 @@
 import "./App.css";
-// Bootstrap CSS
-// Bootstrap Bundle JS
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import Navbar from "./Navbar";
-import Carousel from "./Carousel";
-import Cards from "./Cards";
-import CardsProdutos from "./CardsProdutos";
-import FacilidadesSection from "./FacilidadesSection";
-import FormNovidades from "./FormNovidades";
-import Rodape from "./Rodape";
+import Navbar from "./Components/Navbar/Navbar";
+import Carousel from "./Components/Carousel/Carousel";
+import Cards from "./Components/Cards/Cards";
+import CardsProdutos from "./Components/CardsProdutos/CardsProdutos";
+import FacilidadesSection from "./Components/FacilidadesSection/FacilidadesSection";
+import FormNovidades from "./Components/FormNovidades/FormNovidades";
+import Rodape from "./Components/Rodape/Rodape";
 
 function App() {
   return (
